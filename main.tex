@@ -1,0 +1,61 @@
+\documentclass[reprint]{revtex4-1}
+\usepackage{graphicx}% Include figure files
+\usepackage{polski}
+\usepackage{array}
+\usepackage[utf8]{inputenc}
+\usepackage{bm}% bold math
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[a4paper, margin = 0.75in, top=1.2in ]{geometry}
+\newcommand{\spec}[2][c]{%
+    \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+\begin{document}
+
+\title{ Nieklasyczne metody optymalizacji \\
+Praca domowa nr 3}
+
+\author{Michał Garmulewicz, 48024 }
+
+\begin{abstract}
+  Raport podsumowuje sugerowane alokacje towarów w magazynie klienta, które minimalizują drogę
+  produktu wewnątrz obiektu klienta.
+
+\end{abstract}
+
+\maketitle
+
+\section{Omówienie problemu decyzyjnego}
+Właścicielem problemu decyzyjnego jest firma Northwest Newsprint, część koncernu
+Northwest Clark z Kanady, który jest znaczącym przetwórcą drewna. Struktura produkcji
+koncernu ukazana jest na rysunku XYZ... . Northwest Newsprint jest częścią odpowiedzialną za
+produkcję papieru gazetowego - najbardziej znaczącego produktu.  Decydentem jest 
+zarząd Northwest Newsprint. Osobą odpowiedzialną za analizę jest pan John Smithers, 
+który sprawuje funkcję v-ce głównego kontrolera w departamencie Core Business - Papers koncernu.
+
+Problem decyzyjny polega na weryfikacji planu produkcji na rok 1995, który przygotowany został
+przez zarząd firmy. Pojawiły się także 4 propozycje zmian w firmie, które należy przeanalizować
+pod kątem optymalizacji kosztów i zwiększenia zysków firmy.
+
+
+\section{Lokalizacje}
+\subsection{Zakłady produkcyjne}
+Firma 
+
+\begin{table}[H]
+  \caption{Zakłady produkcyjne}
+  \centering
+  \begin{tabular}{rrrr}
+      \hline
+      Zakład & \spec{ Produkcja \\ dzienna (ton) } & \spec{ Produkcja \\ roczna (ton)}
+              & \spec{ Koszt \\ produkcji tony } \\
+        \hline
+        Spruce Mills & 462 & 166320 & 390 \$ \\
+        \hline
+         \end{tabular}
+       \end{table}
+
+
+
+\end{document}
